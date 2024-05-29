@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(124, 211, 252);
+    overflow: visible;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    min-width: 100px;
+}
+
+li a:hover{
+    background-color: lightgray;
+}

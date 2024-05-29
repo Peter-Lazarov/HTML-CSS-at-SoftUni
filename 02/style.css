@@ -1,0 +1,20 @@
+.todo{
+    margin: 0 auto;
+    padding: 20px;
+    width: 600px;
+    border: solid 1px gray;
+}
+
+.todo ul{
+    list-style: none;
+}
+
+.todo li{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.todo li:hover{
+    background-color: rgb(209, 228, 235);
+    padding: 10px;
+}
