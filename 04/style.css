@@ -1,0 +1,26 @@
+body {
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+time {
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+}
+
+header p {
+    color: gray;
+}
+
+@media (max-width: 600px) {
+    article {
+        padding: 0;
+    }
+}
