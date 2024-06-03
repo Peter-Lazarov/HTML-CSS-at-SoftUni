@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 0 0.7em 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+.socials ul {
+    list-style: none;
+}
+
+.socials li {
+    margin: 0 0.5rem;
+    display: inline-block;
+    list-style: none outside;
+}
+
+.socials li a {
+    display: block;
+    color: rgb(51, 90, 197);
+    background: #eee;
+    font-size: 2em;
+    width: 5rem;
+    aspect-ratio: 1/1;
+    text-align: center;
+    line-height: 5rem;
+    border-radius: 50%;
+}
+
+.socials li a:hover{
+    background: white;
+    color: rgb(101, 126, 197);
+}

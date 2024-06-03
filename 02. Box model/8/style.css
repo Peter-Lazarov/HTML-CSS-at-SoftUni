@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 0 0.7em 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+.buttons ul {
+    list-style: none;
+}
+
+.buttons li {
+    margin: 0 0.5rem;
+    display: inline-block;
+    list-style: none outside;
+}
+
+.buttons li a,
+.buttons li button {
+    padding: 1em;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.buttons li a:hover,
+.buttons li button:hover {
+    background: white;
+    color: rgb(101, 126, 197);
+}
+
+.normal-button {
+    color: black;
+    background: #d8d8d8;
+}
+
+.button-primary {
+    color: black;
+    background: #ff9b00;
+}
+
+.button-secondary {
+    color: black;
+    background: #f9f9cc;
+}
+
+.button-outline {
+    color: black;
+    background: #ffffff;
+}

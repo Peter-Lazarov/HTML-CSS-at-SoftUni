@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 0 0.7em 0;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+details{
+    border: solid 1px grey;
+}
+
+summary {
+    padding: 2em;
+}
+
+details p {
+    padding: 1em;
+}
+
