@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 0 0.7em 0;
+}
+
+html{
+    border: none;
+}
+
+body{
+    border: none;
+}
+
+.content {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+}
+
+header{
+    flex: 1 1 100%;
+    margin: 1% 1%;
+    padding: 2% 4%;
+}
+
+article{
+    flex: 0 0 67%;
+    margin: 1% 1%;
+    padding: 2% 4%;
+}
+
+aside {
+    flex: 0 0 29%;
+    margin: 1% 1%;
+    padding: 2% 4%;
+}
+
+footer{
+    flex: 1 1 100%;
+    margin: 1% 1%;
+    padding: 2% 4%;
+}
+
