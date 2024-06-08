@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0 0 0.7em 0;
+}
+
+html{
+    border: none;
+}
+
+body{
+    border: none;
+    padding: 2em;
+    font:14px/1.5 Lato, sans-serif;
+    background: gray;
+}
+
+.content {
+    display: flex;
+    margin: 0 auto;
+    max-width: 900px;
+    background: #fff;
+    box-shadow: 0 0 1em 0 rgb(0,0,0,0.1);
+    border-radius: 0.3em;
+}
+
+.content section span{
+    display: block;
+    border: 1px solid #ccc;
+    padding: 1em;
+    flex-grow: 1;
+    text-align: center;
+}
+
+section.week {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.week span:nth-child(1),
+section.week span:nth-child(7){
+    flex: 0 0 100%;
+}
+
+section.notes {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
