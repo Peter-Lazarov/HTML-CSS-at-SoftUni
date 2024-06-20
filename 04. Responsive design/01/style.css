@@ -1,0 +1,40 @@
+@media all {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h1 {
+        padding: 0 0 0.7em 0;
+    }
+    
+    .content {
+        padding: 2em;
+    }
+    
+    p{
+        padding: 1em;
+    }
+
+    body::before{
+        margin: 1em;
+        padding: 1em 1.5em;
+        background: rgb(62, 62, 129);
+        color: white;
+    }
+}
+
+@media screen {
+    body::before{
+        display: block;
+        content:'The page is being shown on a screen';
+    }
+}
+
+@media print{
+    body::before {
+        display: block;
+        content: 'The page is using a print preview or it was printed';
+    }
+}
