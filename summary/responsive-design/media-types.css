@@ -1,0 +1,77 @@
+@media all{
+    body::before{
+        display: block;
+        content: '@media all - body::before for all devices';
+    }
+}
+
+@media screen {
+    body::before{
+        display: block;
+        content: '@media screen - body::before for devices with screen';
+    }
+}
+
+@media print{
+    body::before{
+        display: block;
+        content: '@media print - body::before for printers';
+    }
+}
+
+@media (hover: none){
+    body::before{
+        display: block;
+        content: '@media (hover: none) - body::before without hover';
+    }
+}
+
+@media (hover: hover){
+    body::before{
+        display: block;
+        content: '@media (hover: hover) - body::before device with hover';
+    }
+}
+
+@media (orientation: landscape){
+    span::before{
+        display: block;
+        content: '@media (orientation: landscape) - span::before device on landscape orientation';
+    }
+}
+
+@media (width: 700px){
+    p::before{
+        display: block;
+        content: '@media (width: 700px) - p::before width 700px';
+    }
+}
+
+@media (height: 800px){
+    p::before{
+        display: block;
+        content: '@media (height: 800px) - p::before height 800px';
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    body::before{
+        display: block;
+        content: '@media (min-width: 800px) and (max-width: 1200px) - body::before';
+    }
+}
+
+@media not (max-width: 1200px) {
+    body::before{
+        display: block;
+        content: '@media not (max-width: 1200px) shows only on larger than 1200px device';
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body::before{
+        display: block;
+        content: '@media not (min-width: 800px)';
+    }
+}
+
