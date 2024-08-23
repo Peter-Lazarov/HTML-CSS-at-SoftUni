@@ -1,0 +1,30 @@
+.first{
+    overflow: visible;
+    border: solid 1px blue;
+    width: 200px;
+    height: 50px;
+}
+
+.second{
+    overflow: hidden;
+    border: solid 1px blue;
+    width: 200px;
+    height: 50px;
+}
+
+.third{
+    overflow: scroll;
+    border: solid 1px blue;
+    width: 200px;
+    height: 50px;
+}
+
+h2{
+    margin: 2em 0 0 0;
+}
+
+div{
+    margin: 0em 0 8em 0;
+    padding: 1em;
+}
+

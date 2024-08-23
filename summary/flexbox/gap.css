@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid rgb(103, 155, 250);
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px 0; */
+    /* gap: 0 20px; */
+    gap: 20px;
+}
+
+.container .item{
+    border: 2px solid rgb(42, 90, 179);
+    padding: 20px;
+    background: rgb(103, 155, 250);
+}
+
+

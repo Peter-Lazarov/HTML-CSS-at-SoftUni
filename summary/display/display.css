@@ -1,0 +1,21 @@
+.block div{
+    display: block;
+}
+
+.inline div{
+    display: inline;
+}
+
+.inline-block div{
+    display: inline-block;
+}
+
+div{
+    border: 2px dashed gray;
+    padding: 2em;
+}
+
+section{
+    border: 2px solid rgb(91, 167, 91);
+    padding: 2em;
+}

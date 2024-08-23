@@ -1,0 +1,31 @@
+.container{
+    border: 2px solid green;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .item{
+    border: 2px solid green;
+    padding: 20px;
+    background: rgb(92 205 92);
+    /* flex-grow: 1; */
+}
+
+
+.container .item:nth-child(2){
+    flex-grow: 1;
+}
+
+.container .item:nth-child(1){
+    flex-grow: 1;
+}
+
+.container .item:nth-child(2){
+    flex-grow: 2;
+}
+
+.container .item:nth-child(3){
+    flex-grow: 3;
+}
