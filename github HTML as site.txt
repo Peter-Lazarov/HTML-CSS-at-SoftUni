@@ -1,0 +1,6 @@
+1. Create new repository
+2. Upload index.html and style.css
+3. Settings
+4. Pages (on left)
+5. Source - choose main
+6. it will give the Link - wait to become green
